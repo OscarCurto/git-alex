@@ -28,4 +28,7 @@ class Libro extends Tabla {
         
     }
     
+    function hola() {
+        echo "Hola mundo";
+    }
 }
