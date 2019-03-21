@@ -54,6 +54,8 @@ class Http {
             504 => 'Gateway Timeout',
             505 => 'HTTP Version Not Supported');
         return ($httpStatus[$statusCode]) ? $httpStatus[$statusCode] : $httpStatus[500];
+        
+        echo "Modificación de oscar";
     }
 
 }
