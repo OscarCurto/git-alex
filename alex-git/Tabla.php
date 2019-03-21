@@ -29,6 +29,7 @@ abstract class Tabla {
         } catch (Exception $ex) {
 
             echo $ex->getMessage();
+            echo "Problemas mergeamos!";
         }
     }
 
