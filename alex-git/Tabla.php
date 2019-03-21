@@ -30,6 +30,7 @@ abstract class Tabla {
 
             echo $ex->getMessage();
             echo "Problemas mergeamos!";
+            echo "Este merge va a petar";
         }
     }
 
